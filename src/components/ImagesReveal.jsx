@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 const cards = [
   {
-    src: "https://images.unsplash.com/photo-1727717768632-f4241a128f50?q=80&w=2889&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/image4.jpg",
     title: "HIIT RUSH",
   },
   {
-    src: "https://images.unsplash.com/photo-1727400068319-565c56633dc3?q=80&w=1911&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/images3.jpg",
     title: "COMBATLINE",
   },
   {
-    src: "https://images.unsplash.com/photo-1726551195764-f98a8e8a57c3?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/images2.jpg",
     title: "POWERLIFT",
   },
   {
-    src: "https://images.unsplash.com/photo-1727775805114-a87c6bcaf9db?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3",
+    src: "/images1.jpg",
     title: "ZEN FLOW",
   },
 ];
@@ -30,7 +30,7 @@ export default function ChooseYourChallenge() {
   };
 
   return (
-    <section className="bg-black text-white py-20 px-6 md:px-12">
+    <section className="bg-black text-white py-20 px-6 md:px-12" id="pricing">
       {/* Heading Section */}
       <div className="max-w-6xl mx-auto mb-12 flex flex-col md:flex-row md:justify-between md:items-end">
         <div>

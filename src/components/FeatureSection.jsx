@@ -54,7 +54,7 @@ export default function FeatureSection() {
   }, []);
 
   return (
-    <section className="bg-black text-white py-20 px-6 md:px-16">
+    <section className="bg-black text-white py-20 px-6 md:px-16" id="classes">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         {/* 🖼️ Left: Dynamic Image */}
         <div className="relative flex justify-center order-1 md:order-1">

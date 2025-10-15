@@ -3,7 +3,7 @@ import React from "react";
 
 export default function GetInTouch() {
   return (
-    <section className="bg-[#0B0B0B] py-20 px-6">
+    <section className="bg-[#0B0B0B] py-20 px-6" id="locations">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
         {/* Left Image (45%) */}
         <div className="w-full md:w-[45%] flex justify-center md:justify-end">
