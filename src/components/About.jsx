@@ -3,7 +3,7 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <section className="bg-[#0D0D0D] text-white py-20 px-6 md:px-16 font-inter">
+    <section className="bg-[#0D0D0D] text-white py-20 px-6 md:px-16 font-inter" id="about">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
         {/* Left: Image */}
         <div className="relative group overflow-hidden rounded-2xl shadow-[0_0_30px_#E1912F40]">
@@ -61,7 +61,7 @@ export default function AboutSection() {
 
             {/* Square Badge */}
             <div
-              className="bg-[#E1912F] text-black
+              className="bg-[#E1912F] text-white
                          w-28 h-24 md:w-32 md:h-28
                          rounded-lg shadow-[0_8px_24px_rgba(225,145,47,0.35)]
                          flex flex-col items-center justify-center
