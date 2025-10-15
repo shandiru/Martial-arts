@@ -65,7 +65,23 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-[#1a1a1a] my-6"></div>
 
-       
+        {/* Bottom Row */}
+        <div className="flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
+          <p className="text-center md:text-left">
+            © {new Date().getFullYear()} Lifttline Fitness. All rights reserved.
+          </p>
+          <p className="text-center md:text-right mt-2 md:mt-0">
+            Powered by{" "}
+            <a
+              href="https://www.ansely.co.uk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#E1912F] hover:underline"
+            >
+              Ansely
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
